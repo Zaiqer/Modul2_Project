@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="card">
+            <div class="card-header">
+                <p> </p>    
+            </div>
+            <div class="card-body">
+                <h1 class="title">to-do list</h1>
+                <div class="filter">
+                    <img class="filter-icon" src="./icons/filter_icon_descending.svg" alt="filter_icon">
+                </div>
+                <div class="input d-none">
+                    <input type="text" id="user-input">
+                    <img id="delete-input-text" src="./icons/x_icon.svg" alt="remove_icon">
+                    <!-- <img id="delete-input-text-hover" src="./icons/x_icon_hover.svg" alt="remove_icon"> -->
+                </div>
+                <div class="added-items d-none">
+                    <ul id="list"></ul>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button id="add-btn">Add</button>
+                <button id="plus-btn">+</button>
+            </div>
+        </div>
+    </div>
+      
+    <script src="./app.js"></script>
+</body>
+</html>

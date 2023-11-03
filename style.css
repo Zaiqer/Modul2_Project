@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    border: 1px solid #c4c4c4;
+    background: rgba(196, 196, 196, 0);
+    border-radius: 20px;
+    position: relative;
+}
+
+.card-header {
+    background-color: #ffdc40;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    padding: 10px;
+}
+
+.card-body {
+    width: 300px;
+    margin: auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #c4c4c4;
+}
+
+#user-input {
+    display: flex;
+    justify-content: center;
+    border: 0;
+    border-radius: 10px;
+    width: 255px;
+    height: 38px;
+    outline: none;
+}
+
+#delete-input-text {
+    display: block;
+    height: 20px;
+    width: 20px;
+    transform: translateY(50%);
+}
+
+#delete-input-text-hover {
+    display: none;
+    height: 20px;
+    width: 20px;
+    transform: translateY(50%);
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#add-btn {
+    border: 0;
+    height: 45px;
+    width: 130px;
+    color: #fff;
+    background-color: #833ae0;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: rgb(139, 75, 223);
+}
+
+#plus-btn {
+    position: absolute;
+    left: 135px;
+    border: 0;
+    color: #fff;
+    background-color: #9953f1;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#plus-btn:hover {
+    background-color: #a668f2;
+}
+
+.added-items {
+    border-radius: 10px;
+    border: 1px solid #c4c4c4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#list {
+    list-style: none;
+}
+
+.d-none {
+    display: none;
+}
